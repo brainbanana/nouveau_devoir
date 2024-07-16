@@ -5,16 +5,23 @@ h1 {
     font-size: 3rem;
     color: #592A2E;
     font-weight: bold;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 header ,main ,footer {
     width: 1160px;
     margin: auto;
+    background-color: #f2f2f2;
 }
 
 img {
     display: flex;
     margin: auto;
+}
+body {
+    background-color: #736B65;
 }
 
 figure {
