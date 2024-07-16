@@ -43,15 +43,6 @@ figure {
     align-content: center;
 }
 
-.center-content {
-    padding: 15px;
-    width: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
 .right-content {
     padding: 15px;
     width: 25%;
