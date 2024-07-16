@@ -11,15 +11,17 @@ h1 {
 }
 
 header ,main ,footer {
-    width: 1160px;
+    width: 1157px;
     margin: auto;
     background-color: #f2f2f2;
 }
 
 img {
+    width: 100%;
     display: flex;
     margin: auto;
 }
+
 body {
     background-color: #736B65;
 }
@@ -27,10 +29,7 @@ body {
 figure {
     display: flex;
     flex-direction: column;
-    width: 1160px;
-    margin: auto;
-    justify-content: center;
-    background-color: #736B65;
+    width: 25%
 }
 
 .container {
@@ -65,9 +64,9 @@ h2 {
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 footer img {
     width: 45px;
+    padding-bottom: 15px;
 }
