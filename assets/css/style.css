@@ -12,13 +12,14 @@ header ,main ,footer {
     margin: auto;
 }
 
-img main {
+img {
     display: flex;
     margin: auto;
 }
 
 figure {
     display: flex;
+    flex-direction: column;
     width: 1160px;
     margin: auto;
     justify-content: center;
@@ -35,18 +36,14 @@ figure {
     padding: 15px;
     width: 25%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    align-items: flex-start;
 }
 
 .right-content {
     padding: 15px;
     width: 25%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+    flex-direction: row;
 }
 
 h2 {
@@ -66,7 +63,4 @@ footer {
 
 footer img {
     width: 45px;
-    height: 45px;
-    display: flex;
-    padding: 15px;
 }
