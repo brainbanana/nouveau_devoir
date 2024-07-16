@@ -3,8 +3,6 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 3rem;
-}
-rem {
     color: #592A2E;
     font-weight: bold;
 }
@@ -14,10 +12,9 @@ header ,main ,footer {
     margin: auto;
 }
 
-header {
+img main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
 }
 
 figure {
