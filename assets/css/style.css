@@ -50,6 +50,10 @@ figcaption {
     display: flex;
     width: 100%
 }
+.right-content article {
+    display: flex;
+    flex-direction: column;
+}
 
 h2 {
     width: auto;
